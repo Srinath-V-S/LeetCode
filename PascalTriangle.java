@@ -1,7 +1,6 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         
-        int num[][] = new int[numRows][numRows];
         ArrayList<List<Integer>> list = new ArrayList<>();
         if(numRows <=0)
             return list;
