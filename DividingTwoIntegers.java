@@ -8,10 +8,7 @@ class Solution {
      int quotient = dividend/divisor;
         System.out.println(quotient);
         
-        // if(quotient == Integer.MIN_VALUE){
-        //     return Integer.MAX_VALUE;
-        // }
-        
+ 
         
     if(quotient < Integer.MIN_VALUE)
         return Integer.MAX_VALUE;
